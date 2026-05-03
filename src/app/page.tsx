@@ -120,7 +120,7 @@ export default async function Home() {
           <Link href="#" className="hover:text-gray-400 transition-colors">Twitter</Link>
           <Link href="#" className="hover:text-gray-400 transition-colors">LinkedIn</Link>
         </div>
-        <p>Miami — Paris — Tokyo</p>
+        <p>Miami — Paris — tokyo</p>
       </footer>
 
       {/* Loading Overlay */}
