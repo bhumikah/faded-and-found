@@ -73,7 +73,7 @@ export default async function Home() {
 
           <div className="absolute bottom-[calc(10vh)] md:bottom-8 w-full overflow-hidden border-t border-b border-white py-2 flex whitespace-nowrap bg-white text-black mix-blend-normal z-20">
             <div className="flex animate-marquee font-mono text-xs md:text-sm uppercase tracking-widest font-bold">
-              <span className="mx-4">⋆ SHOP THE COLLECTION</span>
+              <span className="mx-4">⋆ SHOP THE COLLECTION NOW</span>
               <span className="mx-4">⋆ FREE WORLDWIDE SHIPPING</span>
               <span className="mx-4">⋆ GEN-Z APPROVED</span>
               <span className="mx-4">⋆ DIGITAL MAKERS</span>
