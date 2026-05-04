@@ -28,10 +28,10 @@ export async function getProducts(): Promise<Product[]> {
     // Generate deterministic mock data based on index
     return {
       id: `prod-${index + 1}`,
-      name: `Premium Product ${index + 1}`,
+      name: `Product ${index + 1}`,
       price: 19999 + (index * 4500),
       image: `/api/intro-image?name=${encodeURIComponent(file)}`,
-      description: `Experience the highest quality craftsmanship with Premium Product ${index + 1}. Carefully curated and designed for modern lifestyles.`,
+      description: `Experience the highest quality craftsmanship with Product ${index + 1}. Carefully curated and designed for modern lifestyles.`,
       category: CATEGORIES[index % CATEGORIES.length],
     };
   });
