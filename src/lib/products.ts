@@ -29,7 +29,7 @@ export async function getProducts(): Promise<Product[]> {
     return {
       id: `prod-${index + 1}`,
       name: `Product ${index + 1}`,
-      price: 250 + (index * 50),
+      price: 300 + (index * 50),
       image: `/api/intro-image?name=${encodeURIComponent(file)}`,
       description: `Experience the highest quality craftsmanship with Product ${index + 1}. Carefully curated and designed for modern lifestyles.`,
       category: CATEGORIES[index % CATEGORIES.length],
