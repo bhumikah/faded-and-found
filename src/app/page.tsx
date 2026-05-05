@@ -59,7 +59,7 @@ export default async function Home() {
               GROWING
             </h1>
             <h1 className="text-[18vw] md:text-[14vw] font-black leading-[0.75] tracking-tight uppercase self-center md:translate-x-12 mt-2">
-              TOMORROW
+              FUTURE
             </h1>
             <div className="flex w-full justify-between items-center mt-2">
               <h1 className="text-[18vw] md:text-[14vw] font-black leading-[0.75] tracking-tighter uppercase line-through decoration-8 md:decoration-16">
